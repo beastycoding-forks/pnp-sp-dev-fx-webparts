@@ -970,7 +970,7 @@
       "This component is developed for the advanced usage of commenting the page or article etc. Page Comments lists will be created to store the comments."
     ],
     "creationDateTime": "2020-02-05",
-    "updateDateTime": "2022-10-06",
+    "updateDateTime": "2023-03-09",
     "products": [
       "SharePoint"
     ],
@@ -981,7 +981,7 @@
       },
       {
         "key": "SPFX-VERSION",
-        "value": "1.15.2"
+        "value": "1.16.1"
       },
       {
         "key": "PNPCONTROLS",
@@ -1009,6 +1009,11 @@
         "pictureUrl": "https://github.com/sudharsank.png",
         "name": "Sudharsan Kesavanarayanan",
         "twitter": "sudharsank"
+      },
+      {
+        "gitHubAccount": "a1mery",
+        "name": "Aimery Thomas",
+        "pictureUrl": "https://github.com/a1mery.png"
       }
     ],
     "references": [
@@ -3129,7 +3134,7 @@
       "- Improved support for dates"
     ],
     "creationDateTime": "2021-03-30",
-    "updateDateTime": "2022-01-12",
+    "updateDateTime": "2023-03-06",
     "products": [
       "SharePoint"
     ],
@@ -3140,7 +3145,7 @@
       },
       {
         "key": "SPFX-VERSION",
-        "value": "1.11.0"
+        "value": "1.16.1"
       }
     ],
     "thumbnails": [
@@ -3164,6 +3169,13 @@
       }
     ],
     "authors": [
+      {
+        "gitHubAccount": "ValerasNarbutas",
+        "company": "Macaw",
+        "pictureUrl": "https://avatars.githubusercontent.com/u/16476453?v=4",
+        "name": "Valeras Narbutas",
+        "twitter": "ValerasNarbutas"
+      },
       {
         "gitHubAccount": "mhomol",
         "company": "ThreeWill",
@@ -9189,7 +9201,7 @@
       "This is sample web part using SPFx and MSGraph to fetch the users information based on First Name, Last Name and Email Address. web part will fetch data from directory using Graph API and display in details list."
     ],
     "creationDateTime": "2020-11-07",
-    "updateDateTime": "2021-08-07",
+    "updateDateTime": "2023-03-10",
     "products": [
       "SharePoint"
     ],
@@ -9200,7 +9212,7 @@
       },
       {
         "key": "SPFX-VERSION",
-        "value": "1.11.0"
+        "value": "1.16.1"
       }
     ],
     "thumbnails": [
@@ -13444,6 +13456,54 @@
     ]
   },
   {
+    "name": "pnp-sp-dev-spfx-web-parts-react-openai-summarise-page-content",
+    "source": "pnp",
+    "title": "Multilingual SharePoint Page Summarization with Open AI API and Microsoft Graph Pages API",
+    "shortDescription": "This sample contains a SharePoint Framework web part and an Azure function that uses the Open AI API to summarize a SharePoint page in multiple languages.",
+    "url": "https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-openai-summarise-page-content",
+    "downloadUrl": "https://pnp.github.io/download-partial/?url=https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-openai-summarise-page-content",
+    "longDescription": [
+      "This sample contains a SharePoint Framework web part and an Azure function that uses the Open AI API to summarize a SharePoint page in multiple languages."
+    ],
+    "creationDateTime": "2023-03-12",
+    "updateDateTime": "2023-03-12",
+    "products": [
+      "SharePoint"
+    ],
+    "metadata": [
+      {
+        "key": "CLIENT-SIDE-DEV",
+        "value": "React"
+      },
+      {
+        "key": "SPFX-VERSION",
+        "value": "1.16.1"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://github.com/pnp/sp-dev-fx-webparts/raw/main/samples/react-openai-summarise-page-content/assets/page_summary.png",
+        "alt": "Web Part Preview"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "anoopt",
+        "pictureUrl": "https://github.com/anoopt.png",
+        "name": "Anoop Tatti"
+      }
+    ],
+    "references": [
+      {
+        "name": "Build your first SharePoint client-side web part",
+        "description": "Client-side web parts are client-side components that run in the context of a SharePoint page. Client-side web parts can be deployed to SharePoint environments that support the SharePoint Framework. You can also use modern JavaScript web frameworks, tools, and libraries to build them.",
+        "url": "https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/get-started/build-a-hello-world-web-part"
+      }
+    ]
+  },
+  {
     "name": "pnp-sp-dev-spfx-web-parts-react-organisationchart",
     "source": "pnp",
     "title": "Organisation Chart",
@@ -14597,6 +14657,54 @@
         "gitHubAccount": "bcameron1231",
         "name": "Beau Cameron",
         "pictureUrl": "https://github.com/bcameron1231.png"
+      }
+    ],
+    "references": [
+      {
+        "name": "Build your first SharePoint client-side web part",
+        "description": "Client-side web parts are client-side components that run in the context of a SharePoint page. Client-side web parts can be deployed to SharePoint environments that support the SharePoint Framework. You can also use modern JavaScript web frameworks, tools, and libraries to build them.",
+        "url": "https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/get-started/build-a-hello-world-web-part"
+      }
+    ]
+  },
+  {
+    "name": "pnp-sp-dev-spfx-web-parts-react-pnpjs-http-client",
+    "source": "pnp",
+    "title": "GitHub Profile display via API",
+    "shortDescription": "This web part loads the GitHub profile using SPHttp client in PnP v3.",
+    "url": "https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-pnpjs-http-client",
+    "downloadUrl": "https://pnp.github.io/download-partial/?url=https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-pnpjs-http-client",
+    "longDescription": [
+      "This web part loads the GitHub profile using SPHttp client in PnP v3."
+    ],
+    "creationDateTime": "2023-03-07",
+    "updateDateTime": "2023-03-07",
+    "products": [
+      "SharePoint"
+    ],
+    "metadata": [
+      {
+        "key": "CLIENT-SIDE-DEV",
+        "value": "React"
+      },
+      {
+        "key": "SPFX-VERSION",
+        "value": "1.16.1"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://github.com/pnp/sp-dev-fx-webparts/raw/main/samples/react-pnpjs-http-client/assets/UpdateAPICall.png",
+        "alt": "Web Part Preview"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "divya-akula",
+        "pictureUrl": "https://github.com/divya-akula.png",
+        "name": "Divya Akula"
       }
     ],
     "references": [
@@ -16425,7 +16533,7 @@
       "Coming from old classic SharePoint pages you might have existing script solutions you want to re-use on a modern page without having to repackage it as a new SharePoint Framework web part."
     ],
     "creationDateTime": "2019-10-13",
-    "updateDateTime": "2022-08-31",
+    "updateDateTime": "2023-03-11",
     "products": [
       "SharePoint"
     ],
@@ -16436,7 +16544,7 @@
       },
       {
         "key": "SPFX-VERSION",
-        "value": "1.13.1"
+        "value": "1.16.1"
       },
       {
         "key": "SPFX-FULLPAGEAPP",
