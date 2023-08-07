@@ -10548,7 +10548,7 @@
   {
     "name": "pnp-sp-dev-spfx-web-parts-react-json-form",
     "source": "pnp",
-    "title": "Json form builder",
+    "title": "JSON form builder",
     "shortDescription": "Build a custom form with ease",
     "url": "https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-json-form",
     "downloadUrl": "https://pnp.github.io/download-partial/?url=https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-json-form",
@@ -11271,7 +11271,13 @@
         "alt": "LOB Integration web part"
       }
     ],
-    "authors": [],
+    "authors": [
+      {
+        "gitHubAccount": "pnp",
+        "pictureUrl": "https://github.com/pnp.png",
+        "name": "Microsoft 365 & Power Platform Community"
+      }
+    ],
     "references": [
       {
         "name": "Build your first SharePoint client-side web part",
