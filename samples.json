@@ -3865,7 +3865,7 @@
       "Shows how to use the new feature of Azure OpenAI Connectors API in a SharePoint Framework web part."
     ],
     "creationDateTime": "2023-07-26",
-    "updateDateTime": "2023-07-26",
+    "updateDateTime": "2023-10-06",
     "products": [
       "SharePoint"
     ],
@@ -3885,6 +3885,12 @@
         "order": 100,
         "url": "https://github.com/pnp/sp-dev-fx-webparts/raw/main/samples/react-azure-openai-connector/assets/react-azure-openai-connector.gif",
         "alt": "Web Part Preview"
+      },
+      {
+        "type": "video",
+        "order": 101,
+        "url": "https://youtu.be/VVjNkwh2W3U?si=tYSpsBdcn5abiC-m&t=1750",
+        "alt": "Community demo of the web part"
       }
     ],
     "authors": [
@@ -4586,7 +4592,7 @@
       "This Web Part allows you to manage events in a calendar. Uses a list of existing calendars on any website. The location and name of the list and the dates of the events to be displayed are defined in the properties of the web part."
     ],
     "creationDateTime": "2020-12-04",
-    "updateDateTime": "2022-10-25",
+    "updateDateTime": "2023-10-05",
     "products": [
       "SharePoint"
     ],
@@ -7294,7 +7300,7 @@
       "This is a web part that goes beyond the standard SharePoint Page Properties web part, offering expanded support for various metadata types and configurations. Effortlessly display key page details based on metadata files, providing a comprehensive view of your content. Streamline information management and enhance user interaction with this versatile and customizable web part."
     ],
     "creationDateTime": "2023-09-23",
-    "updateDateTime": "2023-09-23",
+    "updateDateTime": "2023-10-10",
     "products": [
       "SharePoint"
     ],
@@ -18918,6 +18924,54 @@
         "name": "Supporting section backgrounds",
         "description": "Starting with SharePoint Framework v1.8, web parts can be made aware of any section backgrounds and use these colors to improve the appearance of a web part when hosted in a section with a different background.",
         "url": "https://learn.microsoft.com/sharepoint/dev/spfx/web-parts/guidance/supporting-section-backgrounds"
+      }
+    ]
+  },
+  {
+    "name": "pnp-sp-dev-spfx-web-parts-react-tailwindcss",
+    "source": "pnp",
+    "title": "Tailwind 3",
+    "shortDescription": "This project showcases an integration of Tailwind CSS into an SPFx project.",
+    "url": "https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-tailwindcss",
+    "downloadUrl": "https://pnp.github.io/download-partial/?url=https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-tailwindcss",
+    "longDescription": [
+      "This project showcases an integration of Tailwind CSS into an SPFx project. It offers a sample implementation, facilitating straightforward setup and utilization of Tailwind CSS for enhanced styling and design in SharePoint Framework projects."
+    ],
+    "creationDateTime": "2023-10-07",
+    "updateDateTime": "2023-10-07",
+    "products": [
+      "SharePoint"
+    ],
+    "metadata": [
+      {
+        "key": "CLIENT-SIDE-DEV",
+        "value": "React"
+      },
+      {
+        "key": "SPFX-VERSION",
+        "value": "1.18.0"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://github.com/pnp/sp-dev-fx-webparts/raw/main/samples/react-tailwindcss/assets/example.png",
+        "alt": "Web Part Preview"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "AriGunawan",
+        "pictureUrl": "https://github.com/AriGunawan.png",
+        "name": "Ari Gunawan"
+      }
+    ],
+    "references": [
+      {
+        "name": "Build your first SharePoint client-side web part",
+        "description": "Client-side web parts are client-side components that run in the context of a SharePoint page. Client-side web parts can be deployed to SharePoint environments that support the SharePoint Framework. You can also use modern JavaScript web frameworks, tools, and libraries to build them.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/spfx/web-parts/get-started/build-a-hello-world-web-part"
       }
     ]
   },
