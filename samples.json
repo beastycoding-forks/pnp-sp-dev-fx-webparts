@@ -8484,7 +8484,7 @@
       "This web part demonstrates building a React functional component that uses data from a remote service, in this case the Microsoft Graph, using the recently introduced React Hooks feature. The example web part renders a list of the user's Teams and, optionally, the channels in each Team."
     ],
     "creationDateTime": "2019-06-14",
-    "updateDateTime": "2022-02-21",
+    "updateDateTime": "2023-10-10",
     "products": [
       "SharePoint"
     ],
@@ -8495,7 +8495,7 @@
       },
       {
         "key": "SPFX-VERSION",
-        "value": "1.14.0"
+        "value": "1.18.0"
       }
     ],
     "thumbnails": [
@@ -8509,7 +8509,6 @@
     "authors": [
       {
         "gitHubAccount": "SPDoctor",
-        "company": "Flow Simulation Ltd.",
         "pictureUrl": "https://avatars.githubusercontent.com/u/10207194?s=460&v=4",
         "name": "Bill Ayers",
         "twitter": "SPDoctor"
@@ -29025,6 +29024,64 @@
         "name": "Build your first ListView Command Set extension",
         "description": "Extensions are client-side components that run inside the context of a SharePoint page. Extensions can be deployed to SharePoint Online, and you can use modern JavaScript tools and libraries to build them.",
         "url": "https://docs.microsoft.com/sharepoint/dev/spfx/extensions/get-started/building-simple-cmdset-with-dialog-api?WT.mc_id=m365-15741-cxa"
+      }
+    ]
+  },
+  {
+    "name": "pnp-sp-dev-spfx-extensions-react-utility-extensions",
+    "source": "pnp",
+    "title": "Copy Path and Copy Name List view command set extensions",
+    "shortDescription": "List view command set extensions with below functionalities: Copy Path and Copy Name.",
+    "url": "https://github.com/pnp/sp-dev-fx-extensions/tree/main/samples/react-utility-extensions",
+    "longDescription": [
+      "List view command set extensions with below functionalities:",
+      "1. Copy Path allows to copy the path of the document without breaking the permission inheritance.",
+      "2. Copy Name allows to copy the name of the document without using the currently available rename functionality."
+    ],
+    "creationDateTime": "2023-10-04",
+    "updateDateTime": "2023-10-04",
+    "products": [
+      "SharePoint"
+    ],
+    "metadata": [
+      {
+        "key": "CLIENT-SIDE-DEV",
+        "value": "React"
+      },
+      {
+        "key": "SPFX-VERSION",
+        "value": "1.18.0"
+      }
+    ],
+    "tags": [],
+    "categories": [
+      "SPFX-COMMAND-EXTENSION"
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://github.com/pnp/sp-dev-fx-extensions/raw/main/samples/react-utility-extensions/assets/CopyPathCopyNameExtenstions.png",
+        "alt": "Preview"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "HarminderSethi",
+        "pictureUrl": "https://github.com/HarminderSethi.png",
+        "name": "Harminder Singh"
+      }
+    ],
+    "references": [
+      {
+        "name": "Overview of SharePoint Framework Extensions",
+        "description": "You can use SharePoint Framework (SPFx) Extensions to extend the SharePoint user experience. With SPFx Extensions, you can customize more facets of the SharePoint experience, including notification areas, toolbars, and list data views. SPFx Extensions are available in all Microsoft 365 subscriptions for production usage.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/spfx/extensions/overview-extensions?WT.mc_id=m365-15741-cxa"
+      },
+      {
+        "name": "Use page placeholders from Application Customizer",
+        "description": "Application Customizers provide access to well-known locations on SharePoint pages that you can modify based on your business and functional requirements. For example, you can create dynamic header and footer experiences that render across all the pages in SharePoint Online.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/spfx/extensions/get-started/using-page-placeholder-with-extensions?WT.mc_id=m365-15741-cxa"
       }
     ]
   }
